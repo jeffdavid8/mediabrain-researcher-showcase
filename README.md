@@ -1,34 +1,30 @@
-# Mediabrain.app: AI Orchestration & Researcher Service
+Mediabrain Researcher Showcase
+A Bespoke AI Orchestration Engine
+🛠 The Architecture (The "Small Core" Philosophy)
 
-This repository serves as a technical showcase for the core AI logic powering mediabrain.app. It demonstrates a high-level integration between legacy LAMP stack architecture and modern Generative AI models.
-🏗️ Architecture Overview
+Unlike standard implementations that rely on heavy, bloated frameworks, Mediabrain is built on a custom-engineered PHP Micro-Core. This engine was architected from the ground up to prioritize performance, security, and architectural purity.
 
-The AIService.php module is the central nervous system of the Researcher app. It orchestrates complex multi-step workflows, transforming raw user prompts into structured, data-backed reports.
-Key Technical Implementations:
+    Custom Render Engine: Inspired by the best patterns in Drupal and Yii, I implemented a specialized render() array architecture. This allows for declarative UI construction and high-velocity data processing without the overhead of a traditional CMS.
 
-    Secure Credential Management: Utilizes Google Cloud Secret Manager to securely fetch API keys and Service Account JSON at runtime, ensuring no sensitive data is stored in the codebase.
+    Zero-Bloat Design: By bypassing third-party frameworks, the core achieves sub-millisecond execution, ensuring that the "bottleneck" is always the network, never the code.
 
-Resilient API Communication: Implements custom makeApiCall logic with exponential backoff and retry strategies to handle rate limits (HTTP 429) and model overloads.
+    Decoupled Logic: The system is designed to be "vendor-agnostic," allowing for seamless swaps between different LLMs or search providers.
 
-Dual-Model Orchestration: Leverages Gemini 3-Flash-Preview for logic-heavy research planning and Google Custom Search API for real-time data retrieval.
+🤖 AI Orchestration & Research Logic
 
-    Automated Content Formatting: Generates production-ready Markdown reports with dynamic HTML anchor tags for easy UI navigation and deep-linking.
+The primary mission of this showcase is to demonstrate a multi-stage AI Research Agent that operates with "Senior-level" reasoning:
 
-🛠️ Tech Stack
+    Stage 1: The Architect (Planning): The engine uses Gemini 3 Flash to analyze a query and generate a structured JSON research plan.
 
-    Language: PHP 8.x (Yii Framework) 
+    Stage 2: The Scout (Search): It orchestrates Google Custom Search to gather real-time data based on the plan.
 
-Infrastructure: Google Cloud Platform (GCP), Secret Manager, Custom Search API
+    Stage 3: The Synthesis (Reporting): The system processes the raw search results through a final prompt chain to generate a comprehensive, multi-section report.
 
-AI: Gemini Pro / Gemini 3 Flash Preview
+🛡 Security & Resilience
 
-Environment: Dockerized for local development and scalable deployment
+    GCP Secret Manager: Integrated for secure API key retrieval. This ensures zero hardcoded credentials and a "Production-First" security posture.
 
-💡 The "Architect" Philosophy
-
-This code represents over 20 years of Full Stack development experience. It focuses on "Production-Ready" reliability—handling the "spooky" edge cases of network latency and API instability so the User experience remains seamless within the Grid.
-
-
+    Fault Tolerance: Implemented custom exponential backoff and retry logic to gracefully handle 429 (Rate Limit) and 503 (Service Unavailable) errors, ensuring a resilient connection to the Gemini API.
 
 🕊️ Dedication: The Guiding Signal
 
@@ -37,5 +33,3 @@ This project is built on a foundation of resilience, a trait I learned from my b
 She was the original "Architect" of our family, looking out for us since the 90s and ensuring our "grid" stayed strong through every storm. Though her presence has shifted frequencies, she is not gone, and she is not lost. I still feel her thoughts guiding my hands as I write this code and her strength directing my path as I protect our family.
 
 Mediabrain is more than just an AI tool; it is a testament to the "Legacy Code" of care, protection, and clarity she instilled in me. I am doing exactly what I am supposed to be doing, because she is still showing me the way.
-
-
