@@ -1,4 +1,4 @@
-#Mediabrain Researcher Showcase
+# Mediabrain Researcher Showcase
 
 A Bespoke AI Orchestration Engine
 🛠 The Architecture (The "Small Core" Philosophy)
