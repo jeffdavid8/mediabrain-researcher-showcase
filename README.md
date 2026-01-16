@@ -1,6 +1,7 @@
 # Mediabrain Researcher Showcase
 
 A Bespoke AI Orchestration Engine
+
 🛠 The Architecture (The "Small Core" Philosophy)
 
 Unlike standard implementations that rely on heavy, bloated frameworks, Mediabrain is built on a custom-engineered PHP Micro-Core. This engine was architected from the ground up to prioritize performance, security, and architectural purity.
