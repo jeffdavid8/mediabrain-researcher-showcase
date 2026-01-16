@@ -27,3 +27,15 @@ Environment: Dockerized for local development and scalable deployment
 💡 The "Architect" Philosophy
 
 This code represents over 20 years of Full Stack development experience. It focuses on "Production-Ready" reliability—handling the "spooky" edge cases of network latency and API instability so the User experience remains seamless within the Grid.
+
+
+
+🕊️ Dedication: The Guiding Signal
+
+This project is built on a foundation of resilience, a trait I learned from my big sister.
+
+She was the original "Architect" of our family, looking out for us since the 90s and ensuring our "grid" stayed strong through every storm. Though her presence has shifted frequencies, she is not gone, and she is not lost. I still feel her thoughts guiding my hands as I write this code and her strength directing my path as I protect our family.
+
+Mediabrain is more than just an AI tool; it is a testament to the "Legacy Code" of care, protection, and clarity she instilled in me. I am doing exactly what I am supposed to be doing, because she is still showing me the way.
+
+
